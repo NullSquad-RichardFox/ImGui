@@ -28,3 +28,9 @@ project "ImGui"
         "backends/imgui_impl_opengl3.h",
         "backends/imgui_impl_opengl3_loader.h"
     }
+
+    includedirs
+	{
+		"%{wks.location}/ThirdParty/ImGui",
+        "%{wks.location}/ThirdParty/GLFW/include"
+	}
