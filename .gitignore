@@ -57,3 +57,18 @@ examples/example_sdl2_metal/example_sdl2_metal
 examples/example_sdl2_opengl2/example_sdl2_opengl2
 examples/example_sdl2_opengl3/example_sdl2_opengl3
 examples/example_sdl2_sdlrenderer/example_sdl2_sdlrenderer
+
+# Binaries
+**/Binaries
+**/Intermediate
+
+# Visual Studio files
+/.vs
+*.sln
+*.vcxproj
+*.vcxproj.*
+
+# Visual Studio Code files
+**/.vscode
+Makefile
+*.code-workspace
